@@ -1,0 +1,7 @@
+2f) No puedo ver el archivo. No se puede ver el archivo porque ya no estamos en la rama en la que se encontraba,
+si quisiera verlo deberia ejecutar "git checkout Opcion_2".
+
+Al agregar "repuestas.txt" puedo ver cambios en la rama principal en la representacion grafica del historial de 
+versiones del repositorio
+
+Al realizar el merge puedo notar como se une la rama de Opcion_2 con la rama principal (main)  
