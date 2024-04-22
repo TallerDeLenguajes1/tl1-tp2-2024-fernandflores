@@ -2,6 +2,6 @@
 si quisiera verlo deberia ejecutar "git checkout Opcion_2".
 
 Al agregar "repuestas.txt" puedo ver cambios en la rama principal en la representacion grafica del historial de 
-versiones del repositorio
+versiones del repositorio, los commits aparecen a un costado de su respectivo punto.
 
 Al realizar el merge puedo notar como se une la rama de Opcion_2 con la rama principal (main)  
