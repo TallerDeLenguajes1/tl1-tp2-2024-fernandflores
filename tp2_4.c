@@ -14,15 +14,16 @@ void mostrarComputadora(estructura estruc[]);
 void masVieja(estructura estruc[]);
 void masRapida(estructura estruc[]);
 int main (){
-    estructura computadora[5]={
+    estructura computadora[5];
+    /*estructura computadora[5]={
         {2,2018,tipos[0],8},
         {3,2019,tipos[2],7},
         {1,2020,tipos[1],4},
         {2,2017,tipos[5],7},
         {2,2023,tipos[3],2},
-    };
+    };*/
     int cpu;
-    /* for (int i = 0; i < 5; i++)
+    for (int i = 0; i < 5; i++)
     {          
         do
         {   
@@ -65,9 +66,9 @@ int main (){
             scanf("%d",&cpu);
             computadora[i].tipo_cpu=tipos[cpu];
         } while (cpu<1 || cpu>=7);
+        */
         
-        
-    }*/
+    
     mostrarComputadora(computadora);
     masVieja(computadora);
     masRapida(computadora);
